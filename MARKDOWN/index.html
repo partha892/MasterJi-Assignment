@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Previewer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> <!-- Markdown Parser -->
+</head>
+<body>
+    <div class="container">
+        <!-- Left Section: Input Fields -->
+        <section id="input" class="main">
+            <h2>Enter Markdown</h2>
+            <textarea id="markdown-input" placeholder="Type your Markdown here..."></textarea>
+            <button id="clear-btn">Clear</button>
+        </section>
+
+        <!-- Right Section: Live Preview -->
+        <section id="output" class="main">
+            <h2>Preview</h2>
+            <div id="preview"></div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
