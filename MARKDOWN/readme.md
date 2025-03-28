@@ -34,7 +34,8 @@ Installation
 
 Clone the repository:
 
-git clone https://github.com/yourusername/markdown-previewer.git
+git clone https://github.com/partha892/mood-tracker.git
+
 
 Navigate to the project directory:
 
