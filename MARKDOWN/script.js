@@ -5,7 +5,7 @@ const clearBtn = document.getElementById("clear-btn");
 // Convert Markdown to HTML in real-time
 markdownInput.addEventListener("input", () => {
     preview.innerHTML = marked.parse(markdownInput.value);
-});
+}); 
 
 // Clear Button Functionality
 clearBtn.addEventListener("click", () => {
